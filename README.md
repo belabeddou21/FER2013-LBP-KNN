@@ -28,13 +28,14 @@ Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise
 
 1. Télécharger FER-2013 depuis [Kaggle](https://www.kaggle.com/datasets/msambare/fer2013)
 2. Extraire dans le dossier du projet
-3. Installer les dépendances :
-```bash
-pip install scikit-image scikit-learn numpy matplotlib seaborn pillow
-```
-4. Ouvrir et exécuter `Reconnaissance_expressions_faciales.ipynb`
 
----
+> **Note :** Modifiez les chemins dans la cellule 3 du notebook selon votre emplacement :
+> ```python
+> TRAIN_DIR = r"votre/chemin/vers/archive/train"
+> TEST_DIR  = r"votre/chemin/vers/archive/test"
+> ```
+
+3. Installer les dépendances :
 
 ## Résultats
 
